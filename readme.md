@@ -30,7 +30,7 @@ You can overwrite the default configuration by calling the initializers with the
 ```swift
 let loadingBar = GradientLoadingBar(
     height: 1.0,
-    durations: Durations(fadeIn: 1.0, fadeOut: 2.0, progress: 3.0)
+    durations: Durations(fadeIn: 1.0, fadeOut: 2.0, progress: 3.0),
     gradientColors: [
         UIColor(hexString:"#4cd964").cgColor,
         UIColor(hexString:"#ff2d55").cgColor
